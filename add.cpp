@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int add(int a,int b)
+int addition(int a,int b)
 {
 	return(a+b);
 }
@@ -12,7 +12,7 @@ int main()
 	cin>>x;
 	cout<<"\n Enter the value for y :";
 	cin>>y;
-	result=add(x,y);
+	result=addition(x,y);
 	cout<<"\n addition of x & y is :"<<result;
 	
 	return 0;
