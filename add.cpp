@@ -4,7 +4,10 @@ int add(int a,int b)
 {
 	return(a+b);
 }
-
+int mul(int a,int b)
+{
+	return(a*b);
+}
 int main()
 {
 	int x,y,result;
@@ -14,6 +17,7 @@ int main()
 	cin>>y;
 	result=add(x,y);
 	cout<<"\n addition of x & y is :"<<result;
-	
+	result=mul(x,y);
+	cout<<"\n multiplication of x & y is :"<<result;
 	return 0;
 }
